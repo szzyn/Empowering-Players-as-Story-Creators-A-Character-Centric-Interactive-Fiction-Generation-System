@@ -47,7 +47,7 @@ We evaluated all generated narratives using both **human evaluators** and **LLMs
 
 - `evaluation_prompt_gpt4.py`  
 - `evaluation_prompt_claude.py`  
-- `evaluation_prompt_llama.py`  
+- `evaluation_prompt_llama.py`    
 
 Each prompt asks the LLM to evaluate five narrative dimensions on a 5-point Likert scale:  
 **Coherence**, **Creativity**, **Engagement**, **Trait Alignment**, and **Logline Appropriateness**.
