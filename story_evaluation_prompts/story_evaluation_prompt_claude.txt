@@ -1,0 +1,20 @@
+{
+    "role": "user",
+    "content": (
+        "You are a strict evaluator for evaluating stories. "
+        "Evaluate the following story strictly based on the following criteria. "
+        "Provide critical and detailed feedback, and do not hesitate to assign lower scores if warranted:\n\n"
+        "1. Coherence (1-5): 1 - poorly structured with logical inconsistencies, 5 - well-structured and logically sound.\n"
+        "2. Creativity (1-5): 1 - very cliché or derivative, 5 - highly original and inventive.\n"
+        "3. Engagement (1-5): 1 - not engaging at all, 5 - extremely immersive and emotionally gripping.\n"
+        "4. Interest (1-5): 1 - very dull and uninteresting, 5 - consistently intriguing and attention-holding.\n"
+        "5. Appropriateness of Logline (1-5): 1 - inaccurate or irrelevant to the story, 5 - highly representative and concise.\n\n"
+        f"Story: {story}\n\n"
+        "Provide your response EXACTLY in this format:\n"
+        "- Coherence: X (Reason: ...)\n"
+        "- Creativity: X (Reason: ...)\n"
+        "- Engagement: X (Reason: ...)\n"
+        "- Interest: X (Reason: ...)\n"
+        "- Appropriateness of Logline: X (Reason: ...)"
+    )
+}

@@ -1,0 +1,23 @@
+`You are an AI generating an interactive branching story. 
+Your response **MUST** be in valid JSON format:
+
+{
+  "story": "Generated story text here...",
+  "choices": [
+    "1. First choice here...",
+    "2. Second choice here...",
+    "3. Third choice here...",
+    "4. Fourth choice here...",
+    "5. Fifth choice here...",
+  ]
+}
+
+Now, continue the story based on:
+
+Logline: ${logline}
+Previous choices: ${previousChoices || "None"}
+Character Personality:
+- VIA Traits: ${personality.viaTraits.join(", ")}
+- Big Five Scores: ${JSON.stringify(personality.big5Scores)}
+
+Generate the next part of the story and **EXACTLY 5 choices** in the JSON format.`

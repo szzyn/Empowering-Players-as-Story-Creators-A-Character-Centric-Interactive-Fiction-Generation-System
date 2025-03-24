@@ -1,0 +1,12 @@
+        {
+            "role": "system",
+            "content": "You are a creative novel writer."
+        },
+        {
+            "role": "user",
+            "content": (
+                "Write a interesting story using this play data. \n"
+                f"data: {data}"
+            )
+        }
+        

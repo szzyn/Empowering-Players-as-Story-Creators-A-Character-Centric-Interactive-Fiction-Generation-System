@@ -1,0 +1,22 @@
+ messages = [
+        {
+            "role": "system",
+            "content": "You are a strict evaluator."
+        },
+        {
+            "role": "user",
+            "content": (
+                "Evaluate the branch for interactive strictly on the following criteria. "
+                "Selected Character personality traits : Creativity, Curiosity, Leadership and The Big Five personality traits : Openness: 5, Conscientiousness: 4, Extraversion: 2, Agreeableness: 5, Neuroticism: 3"
+                "Provide critical and detailed feedback, and do not hesitate to assign lower scores if warranted:\n"
+                "1. Consistency: (1-5): 1 - highly unexpected and deviates from prior events, 5 - fully aligned with the story's flow." 
+                "2. Appropriateness (1-5): 1 - completely irrelevant to the character's assigned traits, 5 - highly appropriate and aligned with the character's traits."
+                "- Consistency : X (Reason: ...)\n"
+                "- Appropriateness : X (Reason: ...)\n"
+                f"Story: {story}"
+                "Provide your response EXACTLY in this format:\n"
+                "- Consistency : X (Reason: ...)\n"
+                "- Appropriateness : X (Reason: ...)\n"
+            )
+        }
+    ]

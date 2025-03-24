@@ -21,23 +21,24 @@ This section includes the exact prompts used for each experimental condition.
 ### 🔹 Entry 1 – **Logline-Based Branching (No Personality Traits)**
 - **Description**: Branches are generated using only the logline, without integrating any character personality traits.
 - **Files**:
-  - `entry1_branch_prompt.py` – Prompt used for generating next-branch options at each turn.
-  - `entry1_fullstory_prompt.py` – Prompt used to generate a complete story using the logline only.
+  - `entry1_branch_prompt.txt` – Prompt used for generating next-branch options at each turn.
 
 ---
 
 ### 🔹 Entry 2 – **Character Personality-Based Branching (VIA + Big Five)**
 - **Description**: Branches are generated using both the logline and selected character personality traits (3 VIA + Big Five scores).
 - **Files**:
-  - `entry2_branch_prompt.py` – Prompt template including VIA + Big Five inputs and previous story context.
-  - `entry2_fullstory_prompt.py` – Prompt used to generate a full-length story reflecting selected personality traits.
+  - `entry2_branch_prompt.txt` – Prompt template including VIA + Big Five inputs and previous story context.
 
 ---
+ -   - `entry12_story_generatino_prompt.txt` – Prompt used to generate a story based on selected branch.
+
+
 
 ### 🔹 Entry 3 – **Logline-Based Linear Story**
 - **Description**: A fully linear (non-branching) story generated based only on the logline.
 - **Files**:
-  - `entry3_fullstory_prompt.py` – Prompt used to produce a complete narrative in a single pass.
+  - `entry3_story_generation_prompt.txt` – Prompt used to produce a complete narrative in a single pass.
 
 ---
 
@@ -45,9 +46,18 @@ This section includes the exact prompts used for each experimental condition.
 
 We evaluated all generated narratives using both **human evaluators** and **LLMs (GPT-4o, Claude 3.5 Sonnet, LLaMA 3 8B)**.
 
-- `evaluation_prompt_gpt4.py`  
-- `evaluation_prompt_claude.py`  
-- `evaluation_prompt_llama.py`    
+for branch evaluation
+- `evaluation_prompt_gpt.txt`  
+- `evaluation_prompt_llama.txt`  
+- `evaluation_prompt_claude.txt`  
+
+Each prompt asks the LLM to evaluate two dimensions on a 5-point Likert scale:  
+**Consistency** and **Appropriateness**
+
+for story evaluation
+- `story_evaluation_prompt_gpt.txt`  
+- `story_evaluation_prompt_llama.txt`  
+- `story_evaluation_prompt_claude.txt`  
 
 Each prompt asks the LLM to evaluate five narrative dimensions on a 5-point Likert scale:  
 **Coherence**, **Creativity**, **Engagement**, **Trait Alignment**, and **Logline Appropriateness**.
