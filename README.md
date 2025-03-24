@@ -31,7 +31,7 @@ This section includes the exact prompts used for each experimental condition.
   - `entry2_branch_prompt.txt` – Prompt template including VIA + Big Five inputs and previous story context.
 
 ---
- -   - `entry12_story_generatino_prompt.txt` – Prompt used to generate a story based on selected branch.
+ 🔹 `entry12_story_generatino_prompt.txt` – Prompt used to generate a story based on selected branch at Entry 1 and 2.
 
 
 
