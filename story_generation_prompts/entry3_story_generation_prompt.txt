@@ -5,7 +5,7 @@
         {
             "role": "user",
             "content": (
-                "Write a interesting story based on this logline. \n"
+                "Write a interesting story based on this logline and data." \n"
                 f"logline: {logline}"
             )
         }
