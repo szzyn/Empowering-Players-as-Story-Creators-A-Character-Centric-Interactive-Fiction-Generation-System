@@ -3,7 +3,7 @@
 This repository contains the full set of prompt templates and evaluation materials used in our CMN'25 paper:  
 **[Empowering Players as Story Creators: A Character-Centric Interactive Fiction Generation System](https://github.com/user-attachments/files/21335774/2.pdf)**
 
-**Extended study [언어모델을 활용한 캐릭터 성격 특성 기반 인터랙티브 스토리 생성 시스템 연구](https://github.com/user-attachments/files/21335770/1.pdf)**
+**Extended study [(학위논문)언어모델을 활용한 캐릭터 성격 특성 기반 인터랙티브 스토리 생성 시스템 연구](https://github.com/user-attachments/files/21335770/1.pdf)**
 
 
 The study introduces a character-centric interactive storytelling system that integrates **VIA (Values in Action)** and the **Big Five personality traits** to improve coherence, creativity, and emotional engagement in story generation.  
